@@ -1,0 +1,41 @@
+package objsets
+
+// real tweet data, collected on Oct 1
+object TweetData {
+  
+  val TechCrunch = """[
+{ "user": "TechCrunch", "text": "Resignation Media Hires CEO John Ellis To Run Tapiture, Its Fast-Growing Pinterest For Men  http://t.co/ctn7oWJc by @anthonyha", "retweets": 18.0 },
+{ "user": "TechCrunch", "text": "FreedomPop Opens Its Freemium Internet Service To The Masses With New Public Beta http://t.co/35mA9Adp by @chrisvelazco", "retweets": 27.0 },
+{ "user": "TechCrunch", "text": "Dish And The Dream Of Internet TV http://t.co/y8KcSl8G by @ryanlawler", "retweets": 25.0 },
+{ "user": "TechCrunch", "text": "Adobe's Acrobat XI Boasts New PDF Editor And Touch-Friendly Interface ? Upgrades Start At $139 http://t.co/1YDWvlVI by @anthonyha", "retweets": 26.0 },
+{ "user": "TechCrunch", "text": "Testing Out Bodymetrics, The Startup That Wants To Be A Denim Shopper's Best Friend [TCTV] http://t.co/sPe6wA02 by @loyalelectron", "retweets": 22.0 },
+{ "user": "TechCrunch", "text": "Up Close With The Next Big Home Commodity: LED Lighting http://t.co/nGPSMnMH", "retweets": 17.0 },
+{ "user": "TechCrunch", "text": "Cloning Instagram For Video Will Not Revolutionize Mobile Video http://t.co/B5DMkSnQ by @sandeepcasi", "retweets": 43.0 },
+{ "user": "TechCrunch", "text": "(R)evolution http://t.co/dzQFqjBh by @sarahintampa", "retweets": 20.0 },
+{ "user": "TechCrunch", "text": "An Analysis Of Market Demand For Web Programming Languages http://t.co/gdYrXz7i by @marcgayle", "retweets": 91.0 },
+{ "user": "TechCrunch", "text": "The Kindle Paperwhite Is A Reader's Dream http://t.co/jGslGazO by @johnbiggs", "retweets": 61.0 },
+{ "user": "TechCrunch", "text": "Soon-To-Be-Acquired BlueSprig's AirCover Family Locator Is An iOS/Android App That Lets You Track ... http://t.co/qSQquuLS by @ingridlunden", "retweets": 24.0 },
+{ "user": "TechCrunch", "text": "Data Markets: The Emerging Data Economy   http://t.co/lnTekycH by @gilelbaz", "retweets": 63.0 },
+{ "user": "TechCrunch", "text": "Pluralis Takes A Crowdsourced Approach To Improving Your Landing Pages http://t.co/YcqHJuC7 by @anthonyha", "retweets": 27.0 },
+{ "user": "TechCrunch", "text": "Best photobomb of the day. http://t.co/Xa2EYTyd", "retweets": 326.0 },
+{ "user": "TechCrunch", "text": "An Afternoon With Bad Piggies, Rovio's Next Hit http://t.co/KpYlmFSQ by @jordanrcrook", "retweets": 18.0 },
+{ "user": "TechCrunch", "text": "Most Docks Should Work With The Lightning Adapter And iPhone 5 http://t.co/oGlTupcK by @johnbiggs", "retweets": 13.0 }
+]"""
+ 
+  val mashable = """[
+{ "user": "mashable", "text": "Which is sorriest, #Apple Maps or #Siri? @Charlie_White has the comic - http://t.co/YRXXJXGY", "retweets": 55.0 },
+{ "user": "mashable", "text": "Watch These Quadrotor #Robots Learn to Play Catch [VIDEO] http://t.co/CHZ5BPfL", "retweets": 21.0 },
+{ "user": "mashable", "text": "10 Funny @YouTube Clips of Sleeping Dogs http://t.co/ukPgWZjH", "retweets": 34.0 },
+{ "user": "mashable", "text": "5 Games You Should Play This Weekend http://t.co/t0kxXONY", "retweets": 42.0 },
+{ "user": "mashable", "text": "How Much Bandwidth Will the Vice Presidential Debate Need? http://t.co/ysANGsVP", "retweets": 33.0 },
+{ "user": "mashable", "text": "#DidYouKnow the JPG is a compression technique, not a file size? http://t.co/bVJjxUFJ", "retweets": 117.0 },
+{ "user": "mashable", "text": "Something Is Missing, Batman [COMIC] http://t.co/TBlNdfBg", "retweets": 20.0 },
+{ "user": "mashable", "text": "Burberry Tops Fashion Brands In Social Media This Week [CHART]  http://t.co/8GZl4U5t", "retweets": 64.0 },
+{ "user": "mashable", "text": "Video Callers Know No Bounds ? Not Even Bathrooms http://t.co/JmNNbAkZ via @BNDarticles", "retweets": 14.0 }
+{ "user": "mashable", "text": "Camera+ Arrives on the iPad http://t.co/EG4nDhsQ", "retweets": 25.0 },
+{ "user": "mashable", "text": "Cute Images Make Us 44% Sharper [STUDY] http://t.co/I4IiIbHX", "retweets": 42.0 },
+{ "user": "mashable", "text": "Take 100 NASA Photos, Stir, Make Van Gogh's 'Starry Night' http://t.co/dQv6mvwI", "retweets": 73.0 },
+{ "user": "mashable", "text": "Why Being Unfriended on Facebook Hurts [STUDY] http://t.co/0eHHUrTo", "retweets": 51.0 },
+{ "user": "mashable", "text": "Think Apple Maps Is Bad? Remember the Tale of MobileMe http://t.co/Koeew9eU", "retweets": 41.0 }
+]"""
+}

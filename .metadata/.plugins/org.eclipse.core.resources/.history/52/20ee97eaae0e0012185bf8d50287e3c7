@@ -1,0 +1,44 @@
+package objsets
+
+// real tweet data, collected on Oct 1
+object TweetData {
+  val gizmodo = """[
+{ "user": "gizmodo", "text": "BlackBerry 10 adds so many features that so few people want http://t.co/eaQM0vlS", "retweets": 58.0 },
+{ "user": "gizmodo", "text": "The supercomputer that houses the entire universe http://t.co/KQciouL2", "retweets": 47.0 },
+{ "user": "gizmodo", "text": "Gambling website refunds everyone's Packers bets because of horrible refs http://t.co/bwmgYBDq", "retweets": 121.0 },
+{ "user": "gizmodo", "text": "12 deadly inventions that killed their creators (not for the faint of heart) http://t.co/BCwRAzhe", "retweets": 82.0 },
+]"""
+  val TechCrunch = """[
+{ "user": "TechCrunch", "text": "Google's \"Spring\" Cleaning In Fall: AdSense For Feeds, Classic Plus, Spreadsheet Gadgets Get The Axe http://t.co/pSeE3fCS by @thatdrew", "retweets": 26.0 },
+{ "user": "TechCrunch", "text": "Gillmor Gang Live  09.28.12   (TCTV) http://t.co/eUf0Df0q by @stevegillmor", "retweets": 6.0 },
+{ "user": "TechCrunch", "text": "Facebook Shares Jump More Than 6% After Gifts Launch. (Hooray For New Revenue Streams.) http://t.co/8fEXj2kG by @kimmaicutler", "retweets": 99.0 },
+{ "user": "TechCrunch", "text": "Evernote Listens To Unhappy Skitch 2.0 Users: Brings Back Some Old iOS And Version 1.0 http://t.co/y2YRxxyJ by @fredericl", "retweets": 29.0 },
+
+]"""
+  val engadget = """[
+{ "user": "engadget", "text": "Microsoft details its own Windows 8 rollout, lessons learned from 'dogfooding' -  http://t.co/bg5swwsm", "retweets": 33.0 },
+{ "user": "engadget", "text": "PBS draws link between digital music ethics and magic spells, somehow makes it look simple (video) -  http://t.co/Fx7sPphG", "retweets": 7.0 },
+{ "user": "engadget", "text": "From the lab: Lumia 920 image stabilization and 808 drop test at Nokia R&amp;D (video) -  http://t.co/s9zFp7hU", "retweets": 13.0 },
+{ "user": "engadget", "text": "Sony's Xperia T is now available on O2 and ThreeUK, Walther PPK/S not included -  http://t.co/LlZsSzqQ", "retweets": 7.0 }
+]"""
+  val amazondeals = """[
+{ "user": "amazondeals", "text": "Deal of the Day: 50% Off Select BEARPAW Boots &amp; Slippers http://t.co/ZBvpSN33", "retweets": 0.0 },
+{ "user": "amazondeals", "text": "Lightning Deal! $38.69 - Honeywell Portable Wireless Door Chime and Push Button http://t.co/yYBV4ebr", "retweets": 0.0 },
+{ "user": "amazondeals", "text": "Lightning Deal! Sterling Silver Created Gemstone and Diamond Jewelry Set http://t.co/swzagwJB", "retweets": 1.0 },
+{ "user": "amazondeals", "text": "Lightning Deal! $199.99 - Sterling Silver 1/2 cttw Black Diamond Bamboo Hoop Earrings http://t.co/ZF1r622t"
+{ "user": "amazondeals", "text": "Lightning Deal! $101.15 - BISSELL Lift-Off Steam Mop http://t.co/kE5YhYZZ", "retweets": 2.0 },
+{ "user": "amazondeals", "text": "Deal of the Day: Starting from $3.99 Each: Essential MP3 Albums for Your Collection http://t.co/wotNjjir", "retweets": 5.0 }
+]"""
+  val CNET = """[
+{ "user": "CNET", "text": "HP aims for business users with ElitePad 900 Windows 8 tablet http://t.co/XyOipAdL", "retweets": 10.0 },
+{ "user": "CNET", "text": "Bad Piggies review: Angry Birds follow-up bolts on complexity http://t.co/lmfK0Yjd", "retweets": 16.0 },
+{ "user": "CNET", "text": "HTC One X+ turns up in O2 brochure, Jelly Bean in tow http://t.co/MGvjw24E", "retweets": 26.0 }
+]"""
+  val gadgetlab = """[
+{ "user": "gadgetlab", "text": "A Clean, Well-Lighted Face: The Kindle Paperwhite http://t.co/WlUPzZbS by @strngwys", "retweets": 11.0 },
+]"""
+  val mashable = """[
+{ "user": "mashable", "text": "Which is sorriest, #Apple Maps or #Siri? @Charlie_White has the comic - http://t.co/YRXXJXGY", "retweets": 55.0 },
+{ "user": "mashable", "text": "Watch These Quadrotor #Robots Learn to Play Catch [VIDEO] http://t.co/CHZ5BPfL", "retweets": 21.0 }
+]"""
+}
