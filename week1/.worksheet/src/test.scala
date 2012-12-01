@@ -1,4 +1,6 @@
-object test {import scala.runtime.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(121); 
+import recfun.Main
+
+object test {import scala.runtime.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(141); 
 
   def sum(f: Int => Int)(a: Int, b: Int): Int = {
     if (a > b) {0}
@@ -21,7 +23,9 @@ object test {import scala.runtime.WorksheetSupport._; def main(args: Array[Strin
     else {method(f(a), general(f, method, fundamental)(a + 1, b))}
   };System.out.println("""general: (f: Int => Int, method: (Int, Int) => Int, fundamental: Int)(a: Int, b: Int)Int""");$skip(49); val res$2 = 
   
-  general(x => x, (x, y) => (x * y), 1)(1, 5);System.out.println("""res2: Int = """ + $show(res$2))}
+  general(x => x, (x, y) => (x * y), 1)(1, 5);System.out.println("""res2: Int = """ + $show(res$2));$skip(42); val res$3 = 
+  
+  Main.countChange(120, List(1, 2, 4));System.out.println("""res3: Int = """ + $show(res$3))}
   
   
 }

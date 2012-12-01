@@ -1,3 +1,5 @@
+import recfun.Main
+
 object test {
 
   def sum(f: Int => Int)(a: Int, b: Int): Int = {
@@ -24,6 +26,8 @@ object test {
                                                   //| , b: Int)Int
   
   general(x => x, (x, y) => (x * y), 1)(1, 5)     //> res2: Int = 120
+  
+  Main.countChange(120, List(1, 2, 4))            //> res3: Int = 961
   
   
 }

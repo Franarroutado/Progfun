@@ -1,0 +1,5 @@
+import streams.StringParserTerrain._
+
+object test {
+  terrainFunction(Vector(Vector('S', 'T'), Vector('o', 'o'), Vector('o', 'o')))
+}
